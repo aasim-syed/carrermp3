@@ -32,13 +32,13 @@ const Heropic = styled.div`
 position: relative;
 right:0px;
 height: 610px;
-background-image: linear-gradient(to top, #0e100d, #111311, #141614, #171816, #191b19, #1d1f1d, #222422, #262826, #2d2f2d, #353735, #3c3e3c, #444644);
+background-image: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
 background-blend-mode: darken;
 z-index:1;
 left: 0px;
 top:10vh;
 
-background-repeat:no-repeat;
+
 
 border-radius: 0px 0px 33px 33px;
 @media(max-width:600px){
