@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carrermp3/static/css/main.e476d655.css",
+    "main.js": "/carrermp3/static/js/main.233b33ae.js",
+    "static/js/787.8c83f591.chunk.js": "/carrermp3/static/js/787.8c83f591.chunk.js",
+    "static/media/logo.svg": "/carrermp3/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/carrermp3/index.html",
+    "main.e476d655.css.map": "/carrermp3/static/css/main.e476d655.css.map",
+    "main.233b33ae.js.map": "/carrermp3/static/js/main.233b33ae.js.map",
+    "787.8c83f591.chunk.js.map": "/carrermp3/static/js/787.8c83f591.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e476d655.css",
+    "static/js/main.233b33ae.js"
+  ]
+}
