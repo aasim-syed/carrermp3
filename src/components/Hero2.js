@@ -3,9 +3,11 @@ import React from 'react'
 import styled from "styled-components"
 
 const Second = () => {
+  
   return (
     <>
     <Red>
+      
 
     </Red>
     </>

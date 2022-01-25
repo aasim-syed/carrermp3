@@ -46,7 +46,8 @@
   
     
   "deploy": "gh-pages  -d build",
-  
+
+  "run":"react-scripts run",  
     
   "start": "react-scripts start",
   
