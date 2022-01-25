@@ -34,9 +34,9 @@ right:0px;
 height: 610px;
 background-image: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
 background-blend-mode: darken;
-z-index:1;
+z-index:-1;
 left: 0px;
-top:10vh;
+top:0vh;
 
 
 
