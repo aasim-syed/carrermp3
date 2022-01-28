@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "344b9ea88979504862f8265ebb697870",
+    "revision": "220af5e7f04fd1b8ff29608f93e1c8f9",
     "url": "/carrermp3/index.html"
   },
   {
-    "revision": "4eb98ae811e115868999",
+    "revision": "bdcf0af4ea6439e10ce6",
     "url": "/carrermp3/static/css/main.540d8454.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/carrermp3/static/js/3.6e32c79a.chunk.js"
   },
   {
-    "revision": "4eb98ae811e115868999",
-    "url": "/carrermp3/static/js/main.64f1d857.chunk.js"
+    "revision": "bdcf0af4ea6439e10ce6",
+    "url": "/carrermp3/static/js/main.790ffcc7.chunk.js"
   },
   {
     "revision": "b39e06738072f0c68835",
