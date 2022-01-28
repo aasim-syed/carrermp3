@@ -19,7 +19,7 @@ const About = () => {
   <img className='imgs' style={{width:'20vh',marginLeft:'12vh',marginTop:'8vh'}} src="https://c.tenor.com/lsQnDndJ9KkAAAAC/among-us-who-asked.gif"></img>
     <Firstblock >
     
-      <p>NOTHING HERE!</p>
+      <p>NOTHING HERE!JUST AWESOME CSS🙂</p>
       {/* <input type="text" onChange={(e)=>{setNew1(e.target.value)}}/>
     <button style={{fontFamily:'Poppins',color:'red'}} onClick={Nam}>{new1}</button> */}
     </Firstblock>
@@ -282,7 +282,7 @@ p{
   margin-left:30px;
   color:IndianRed;
   font-family:Bangers;
-  font-size:40px;
+  font-size:35px;
   :hover{
  
   
