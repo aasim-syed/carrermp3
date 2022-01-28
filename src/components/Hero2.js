@@ -3,15 +3,19 @@ import React from 'react'
 import styled from "styled-components"
 
 const Second = () => {
-  
-  return (
-    <>
-    <Red>
-      
 
-    </Red>
-    </>
-  )
+    return ( 
+        <>
+        <Red>
+            <h1>NOTHING HERE..JUST FUNNY CATS 😺</h1>
+        </Red>
+
+
+
+
+
+        </>
+    )
 }
 
 export default Second
@@ -20,30 +24,48 @@ const Red = styled.div`
 position: relative;
 right:0px;
 height: 610px;
-background: black;
-background-blend-mode: darken;
-z-index:-1;
+z-index:1;
 left: 0px;
 top:0vh;
-background:url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1);
+background:url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+bottom:0px;
 
-background-repeat:no-repeat;
 
-border-radius: 33px 33px 33px 33px;
+border-radius: 0px 0px 33px 33px;
 h1{
+    @media(max-width:600px){
+        left: 0px;
+        width: auto;
+        height: auto;
+    }
     position: absolute;
 width: 731px;
 height: 40px;
 left: 194px;
-top: 14px;
+top: -10px;
+height: 260px;
+font-family: Bangers;
+background: rgba(21, 96, 226, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(21, 96, 226, 0.3);
 
-font-family: Poppins;
-font-style: italic;
+color:white;
 font-weight: 600;
 font-size: 90px;
 line-height: 135px;
 
 mix-blend-mode: hard-light;
-
+:hover{
+    transition-duration:0.7s ;
+  mix-blend-mode: normal;
+  
+  box-sizing: border-box;
+  filter: drop-shadow(5px 4px 33px #13FC46);
+  border-radius: 0px 44px;
+  }
+  
 }
 `;

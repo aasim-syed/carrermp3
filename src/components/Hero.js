@@ -34,13 +34,13 @@ right:0px;
 height: 610px;
 background-image: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
 background-blend-mode: darken;
-z-index:-1;
+
 left: 0px;
 top:0vh;
 
 
 
-border-radius: 0px 0px 33px 33px;
+border-radius: 0px 0px 0px 0px;
 @media(max-width:600px){
   top:0vh;
 }
