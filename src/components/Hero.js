@@ -53,7 +53,7 @@ a{
 width: 731px;
 height: 40px;
 left: 194px;
-top: 14px;
+top: 34px;
 color:#36FC25;
 font-family: 'Press Start 2P', cursive;
 font-style: italic;
@@ -120,7 +120,7 @@ mix-blend-mode: hard-light;
   width: 820px;
   height: 10px;
   left: 194px;
-  top: 134px;
+  top: 164px;
   color:#36FC25;
   font-family: 'Press Start 2P', cursive;
   font-style: italic;

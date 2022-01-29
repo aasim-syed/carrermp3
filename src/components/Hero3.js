@@ -16,7 +16,7 @@ const About = () => {
   <>
   <New>
   <h2 className='car'>SHHH!!SILENCE !😶</h2>
-  <img className='imgs' style={{width:'20vh',marginLeft:'12vh',marginTop:'8vh'}} src="https://c.tenor.com/lsQnDndJ9KkAAAAC/among-us-who-asked.gif"></img>
+  <img className='imgs' style={{width:'20vh',marginTop:'8vh'}} src="https://c.tenor.com/lsQnDndJ9KkAAAAC/among-us-who-asked.gif"></img>
     <Firstblock >
     
       <p>NOTHING HERE!JUST AWESOME CSS🙂</p>
@@ -42,9 +42,12 @@ const New = styled.div`
 position: relative;
 right:0px;
 height: 710px;
-background: url("https://giffiles.alphacoders.com/723/7232.gif");
+background-image: url("https://i.pinimg.com/originals/89/a9/96/89a996ebf8d1d4b029036f9b85a93976.gif");
+// background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/d6552119730059.563339f76cc0b.gif");
+// background: url("https://giffiles.alphacoders.com/723/7232.gif");
 // background: url("https://cdn.dribbble.com/users/1445486/screenshots/3856847/media/7e998380929df7a8a3663a6e324fdeaa.gif");
 background-blend-mode: darken;
+// background-size: cover;
 bottom: 0px;
 left: 0px;
 top: 0vh;
@@ -57,10 +60,13 @@ z-index:0;
 }
 border-radius: 0px 0px 0px 0px;
 .imgs{
+  margin-left:200px;
   @media(max-width:600px){
+
   position: absolute;
-  top:84px;
-  left:40px;
+  top:54px;
+
+  margin-left:50px;
   
   }
  }
@@ -71,7 +77,7 @@ height: 40px;
 left: 194px;
 top: 10px;
 color:white;
-font-family: Poppins;
+font-family: 'Major Mono Display', monospace;
 font-style: italic;
 font-weight: 600;
 font-size: 90px;
@@ -83,7 +89,7 @@ line-height: 135px;
   position: absolute;
 width: 661px;
 height: 20px;
-left: 254px;
+left: 534px;
 top: 0px;
 color:#36FC25;
 font-family: 'Press Start 2P', cursive;
@@ -102,7 +108,7 @@ mix-blend-mode: hard-light;
   left: 104px;
   top: 14px;
   color:#36FC25;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Major Mono Display', monospace;
   font-style: italic;
   font-weight: 600;
   font-size: 35px;
@@ -261,7 +267,8 @@ width: 406px;
 height: 401px;
 left: 24px;
 top: 30vh;
-
+box-sizing: border-box;
+filter: drop-shadow(5px 4px 33px #E31313);
 background: url(giphy.png);
 background-blend-mode: darken;
 mix-blend-mode: normal;
@@ -269,25 +276,31 @@ mix-blend-mode: normal;
 border-radius: 0px 44px;
 @media(max-width:600px){
 left:0px;
-width:auto;
-top:40vh;
+width: 370px;
+top: 40vh;
+
+
 }
-:hover{
 border: 99px solid #000000;
 box-sizing: border-box;
 filter: drop-shadow(5px 4px 33px #E31313);
 transition-duration:0.7s ;
+:hover{
+  transition-duration:0.7s ;
+  margin-top:30px;
+  // transform:scale(1.1);
+  filter: drop-shadow(5px 4px 33px #0835AA);
 }
 p{
-  margin-left:30px;
+  margin-left:20px;
   color:IndianRed;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   font-size:35px;
   :hover{
  
-  
+  margin-left:20px;
   color:white;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   }
 }
 
@@ -296,21 +309,26 @@ const Secondblk = styled.div`
 position: absolute;
 width: 406px;
 height: 401px;
-left: 454px;
-top: 150px;
-
+left: 654px;
+top: 170px;
+box-sizing: border-box;
+filter: drop-shadow(5px 4px 33px #13FC46);
 background: url(giphy.png);
 background-blend-mode: darken;
 mix-blend-mode: normal;
 
 border-radius: 0px 44px;
-:hover{
+
   transition-duration:0.7s;
 mix-blend-mode: normal;
 border: 99px solid black;
 box-sizing: border-box;
 filter: drop-shadow(5px 4px 33px #13FC46);
 border-radius: 0px 44px;
+:hover{
+  margin-top:-30px;
+  // transform:scale(1.1);
+  filter: drop-shadow(5px 4px 33px #0835AA);
 }
 @media(max-width:600px){
 
@@ -326,13 +344,13 @@ p{
   background: -webkit-linear-gradient(green, lightgreen);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   font-size:40px;
   :hover{
  
   
   color:white;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   }
 }
 
@@ -341,20 +359,25 @@ const Thirdblk = styled.div`
 position: absolute;
 width: 406px;
 height: 401px;
-left: 1054px;
+left: 1254px;
 top: 220px;
-
+filter: drop-shadow(5px 4px 33px #EF12E6);
+box-sizing: border-box;
  background-blend-mode: darken;
 mix-blend-mode: normal;
 // border-image: url("https://idronline.org/wp-content/uploads/2020/12/giphy-74.gif");
 border-radius: 0px 44px;
-:hover{
+
   transition-duration:0.7s;
 mix-blend-mode: normal;
 border: 99px solid black;
 box-sizing: border-box;
 filter: drop-shadow(5px 4px 33px #EF12E6);
 border-radius: 0px 44px;
+:hover{
+  margin-top:30px;
+  position: absolute;
+  filter: drop-shadow(5px 4px 33px #EF1212);
 }
 @media(max-width:600px){
 
@@ -370,13 +393,13 @@ p{
   background: -webkit-linear-gradient(white, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   font-size:40px;
   :hover{
  
   
   color:white;
-  font-family:Bangers;
+  font-family: 'Major Mono Display', monospace;
   }
 }
 

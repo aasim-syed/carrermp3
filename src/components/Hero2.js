@@ -31,20 +31,23 @@ background:url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4c
 bottom:0px;
 
 
-border-radius: 0px 0px 33px 33px;
+border-radius: 0px 0px 0px 0px;
 h1{
     @media(max-width:600px){
         left: 0px;
         width: auto;
         height: auto;
+        font-size: 50px;
+        line-height: 53px;
     }
+
     position: absolute;
 width: 731px;
-height: 40px;
+height: 500px;
 left: 194px;
 top: -10px;
-height: 260px;
-font-family: Bangers;
+
+font-family: 'Major Mono Display', monospace;
 background: rgba(21, 96, 226, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -55,7 +58,7 @@ border: 1px solid rgba(21, 96, 226, 0.3);
 color:white;
 font-weight: 600;
 font-size: 90px;
-line-height: 135px;
+line-height: 105px;
 
 mix-blend-mode: hard-light;
 :hover{
