@@ -62,7 +62,7 @@ line-height: 105px;
 
 mix-blend-mode: hard-light;
 :hover{
-    transition-duration:0.7s ;
+    transition-duration:0.8s ;
   mix-blend-mode: normal;
   
   box-sizing: border-box;
