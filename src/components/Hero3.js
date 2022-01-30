@@ -265,7 +265,7 @@ const Firstblock = styled.div`
 position: absolute;
 width: 406px;
 height: 401px;
-left: 24px;
+left: 246px;
 top: 30vh;
 box-sizing: border-box;
 filter: drop-shadow(5px 4px 33px #E31313);
@@ -359,7 +359,7 @@ const Thirdblk = styled.div`
 position: absolute;
 width: 406px;
 height: 401px;
-left: 1254px;
+left: 1054px;
 top: 220px;
 filter: drop-shadow(5px 4px 33px #EF12E6);
 box-sizing: border-box;
